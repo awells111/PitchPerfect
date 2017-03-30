@@ -25,7 +25,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="NmP-9r-E7R">
                                 <rect key="frame" x="20" y="64" width="440" height="256"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yW0-RC-3Hv" userLabel="Record Button">
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yW0-RC-3Hv" userLabel="Record Button">
                                         <rect key="frame" x="142.5" y="0.0" width="155" height="85.5"/>
                                         <state key="normal" image="RecordButton"/>
                                         <connections>
@@ -38,11 +38,11 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" verticalHuggingPriority="249" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zb3-MN-iMV">
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="249" verticalHuggingPriority="249" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="749" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zb3-MN-iMV">
                                         <rect key="frame" x="142.5" y="170.5" width="155" height="85.5"/>
                                         <state key="normal" image="Stop"/>
                                         <connections>
-                                            <action selector="stopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dyb-ve-Ros"/>
+                                            <action selector="recordAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8qF-mw-Ihj"/>
                                         </connections>
                                     </button>
                                 </subviews>
